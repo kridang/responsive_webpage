@@ -34,9 +34,9 @@
 }
 
 /* Overall Slides */
-.content p, .content img {
-  max-width: 1000px;
-  margin: 40px auto;
+.content p {
+  display: block;
+  margin: 0 auto;
   padding: 20px;
   text-align: justify;
   line-height: 1.7;
@@ -228,9 +228,11 @@
 
 .culture-img {
   display: block;
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 8px;
+    margin: 0 auto;
+
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 

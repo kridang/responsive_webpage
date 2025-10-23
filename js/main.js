@@ -18,10 +18,12 @@ function responsive_control() {
 
 // Accordion functionality
 var acc = document.getElementsByClassName("accordion");
-for (let i = 0; i < acc.length; i++) {
+var i;
+
+for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    let panel = this.nextElementSibling;
+    var panel = this.nextElementSibling;
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
