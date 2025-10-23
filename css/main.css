@@ -1,4 +1,5 @@
-/* NAV BAR */
+/* General */
+/* NAVBAR */
 .topnav {
   background-color: #cd8417;
   overflow: hidden;
@@ -30,6 +31,207 @@
 .content {
   padding: 14px;
   font-size: 22px;
+}
+
+/* Overall Slides */
+.content p, .content img {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.7;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Index.HTML */
+/* SLIDESHOW */
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.4s;
+}
+
+.center {
+  text-align:center;
+  margin-top:10px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Climate */
+/* COMPARE IMGS */
+.compare-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #2a5d84;
+}
+
+/* * {box-sizing: border-box;} */
+
+.compare-container {
+  position: relative;
+  height: 200px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.compare-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  width: 40px;
+  height: 40px;
+  background-color: #f3d721;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+/* Tourism */
+.accordion {
+  background-color: #f3f3f3;
+  color: #333;
+  cursor: pointer;
+  padding: 15px 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.active, .accordion:hover {
+  background-color: #dcdcdc;
+}
+
+.panel {
+  padding: 0 20px 15px 20px;
+  background-color: #fff;
+  display: none;
+  overflow: hidden;
+  border-left: 3px solid #bbb;
+  border-radius: 0 0 8px 8px;
+}
+
+.panel p {
+  line-height: 1.6;
+  color: #444;
+}
+
+.panel img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Culture */
+/* .content.extra {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.7;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+} */
+
+.content.culture p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.culture-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 /* SEE ALSO */

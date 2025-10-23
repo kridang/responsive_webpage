@@ -22,15 +22,41 @@
 
     <div class="content">
         <p>
-            Da Nang, Vietnam, is a growing coastal city that combines modern cityscapes
-            with natural beauty. The landscape varies from the Son Tra mountains to
-            sandy beaches. Known for fresh seafood and vibrant tourist spots, it attracts
-            visitors from all over to experience the authenticity of Vietnam.
+            Da Nang, Vietnam, is a growing coastal city that combines modern cityscapes with natural beauty.
+            The landscape varies from the Son Tra mountains to sandy beaches. Known for fresh seafood and vibrant
+            tourist spots, it attracts visitors from all over to experience the authenticity of Vietnam.
         </p>
-        <br>
-        <img src="img/cover-img.jpg" style="width: 100%; height: auto;">
-        <br>
-        <br>
+
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+                <img src="img/cover-img.jpg" style="width:100%">
+            <div class="text">Coastal View of Da Nang at My Khe Beach</div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/han-river.jpg" style="width:100%">
+        <div class="text">My Khe Beach</div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/hoi-an.jpg" style="width:100%">
+        <div class="text">Han River at Night</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+     </div>
+
+        <div class="center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     </div>
     <script src="js/main.js"></script>
 </body>
